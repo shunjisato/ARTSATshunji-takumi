@@ -56,8 +56,7 @@ void draw() {
     float x2  =  map( i+1, 0, out.bufferSize(), 0, width );
     line( x1, 50 + out.left.get(i)*50, x2, 50 + out.left.get(i+1)*50);
     line( x1, 150 + out.right.get(i)*50, x2, 150 + out.right.get(i+1)*50);
-  }
-  
+  } 
 }
 
 JSONArray getSensorDataTime(int time) {
